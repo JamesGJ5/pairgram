@@ -1,4 +1,4 @@
-export default function ForgotPasswordPage() {
+export default function Page() {
   return (
     <></>
   );
