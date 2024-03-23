@@ -1,7 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 
+const pathsForUsers = ['/', '/verification-email-notification', '/verified-notification', '/reset-password', '/settings'];
+
 export function middleware(req: NextRequest) {
-    if (req.nextUrl.pathname === '/') {
+    if (pathsForUsers.includes(req.nextUrl.pathname)) {
         // TODO: redirect to the below only if not signed in
         return NextResponse.redirect(new URL('/sign-in', req.url));
     }
@@ -9,5 +11,5 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-    matcher: '/',
+    matcher: pathsForUsers,
 }
