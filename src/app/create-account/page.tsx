@@ -15,7 +15,7 @@ export default function Page() {
           *Confirm password: <input type="password"/>
         </label>
         <label>
-          *Check this box to confirm you've read our <a href="/privacy-policy">Privacy Policy</a> and <a href="/terms-of-service">Terms of Service</a>: <input type="password"/>
+          *Check this box to confirm you've read our <a href="/privacy-policy">Privacy Policy</a> and <a href="/terms-of-service">Terms of Service</a>: <input type="checkbox"/>
         </label>
       </form>
     </>
