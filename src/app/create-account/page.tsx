@@ -5,6 +5,7 @@ export default function Page() {
         <label>
           *Name: <input type="text" required/>
         </label>
+        {/* TODO: check that email is unique */}
         <label>
           *E-mail: <input type="email" required/>
         </label>
@@ -12,7 +13,9 @@ export default function Page() {
           *Password: <input type="password" required/>
         </label>
         {/* TODO: assert that the passwords are the same */}
-        {/* TODO: asser that the passwords are acceptable */}
+        {/* TODO: assert that the passwords have at least 8 characters */}
+        {/* TODO: escape characters as needed for storage to prevent security breaches */}
+        {/* TODO: hash the password before storage  */}
         <label>
           *Confirm password: <input type="password" required/>
         </label>
