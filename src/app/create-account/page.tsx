@@ -17,7 +17,7 @@ export default function Page() {
           *E-mail: <input type="email" required/>
         </label>
         <label>
-          *Password: <input type="password" required/>
+          *Password: <input type="password" minLength={8} required/>
         </label>
         {/* TODO: assert that the passwords are the same */}
         {/* TODO: assert that the passwords have at least 8 characters */}
