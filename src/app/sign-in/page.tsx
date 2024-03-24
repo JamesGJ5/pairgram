@@ -15,10 +15,6 @@ export default function Page() {
         <a href="/create-account">Create Account</a>
         <a href="/forgot-password">Forgot Password</a>
       </main>
-      <footer> {/* TODO: put into layout if to be reused generally*/}
-        <a href="/privacy-policy">Privacy Policy</a>
-        <a href="/terms-of-service">Terms of Service</a>
-      </footer>
     </>
   );
 }
