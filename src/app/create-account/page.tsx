@@ -1,3 +1,10 @@
+// 'use client';
+
+// // TODO: consider having this elsewhere
+// function handleAccountCreationFormSubmission() {
+
+// }
+
 export default function Page() {
   return (
     <>
@@ -17,7 +24,7 @@ export default function Page() {
         {/* TODO: escape characters as needed for storage to prevent security breaches */}
         {/* TODO: hash the password before storage  */}
         <label>
-          *Confirm password: <input type="password" required/>
+          *Confirm password: <input type="password"/>
         </label>
         <label>
           *Check this box to confirm you've read our <a href="/privacy-policy">Privacy Policy</a> and <a href="/terms-of-service">Terms of Service</a>: <input type="checkbox" required/>
